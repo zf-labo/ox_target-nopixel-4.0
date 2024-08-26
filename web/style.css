@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-default: #00f8b8;
+  --color-hover: white;
+}
+
+body {
+  visibility: hidden;
+  user-select: none;
+  white-space: nowrap;
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 40;
+}
+
+#eye {
+  content: "\F33E";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5vh;
+  fill: #00f8b8;
+}
+
+.eye-hover {
+  fill: var(--color-default);
+}
+
+#options-wrapper {
+  position: absolute;
+  top: calc(48.5%);
+  left: calc(50% + 30pt);
+}
+
+.option-container {
+  color: var(--color-default);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Inter";
+
+  background: #00987266;
+
+  font-size: 10.5pt;
+  line-height: 24pt;
+  vertical-align: middle;
+  margin: 2.75pt;
+  transition: 325ms;
+  transform-origin: left top;
+  scale: 1;
+  height: 24pt;
+  min-width: 80pt;
+  padding-right: 6pt;
+  top: 0;
+
+  border: 2px solid #00987266;
+  border-radius: 0.35vh;
+}
+
+.option-container:hover {
+  background: #00f8ba9a;
+  transform-origin: left top;
+  color: var(--color-hover);
+  border: 2px solid #00f8b8;
+}
+
+.option-icon {
+  font-size: 12pt;
+  line-height: 22pt;
+  width: 14pt;
+  margin: 5pt;
+  color: var(--color-default);
+}
+
+.option-label {
+  font-weight: 500;
+  color: #fff;
+}
+
+#hex::before {
+    position: absolute;
+    top: 49.5%;
+    left: 50%;
+    transform: translateY(-49.75%) translateX(-50%);
+    content: "\2B22";
+    color: #3c575767;
+    font-size: 5.25vh;
+}
