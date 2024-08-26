@@ -1,6 +1,9 @@
 # ox_target | NoPixel 4.0 Inspired
 # Redesigned by LeZach & ZF Labo
 
+![image](https://github.com/user-attachments/assets/8dfd1b49-6048-45ea-8e21-0170bcafe2cd)
+![image](https://github.com/user-attachments/assets/273ee640-ef87-421a-80a9-5c44a7811e11)
+
 ![](https://img.shields.io/github/downloads/overextended/ox_target/total?logo=github)
 ![](https://img.shields.io/github/downloads/overextended/ox_target/latest/total?logo=github)
 ![](https://img.shields.io/github/contributors/overextended/ox_target?logo=github)
